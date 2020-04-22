@@ -10,8 +10,6 @@ def choose1(emps):
         print(f'\t{n}\t{emp}')
         n += 1
 
-#choose1(emps)
-
 def choose2(emps):
     emp_name = input('Input Name: ')
     emp_age = input('Input Age: ')
@@ -30,8 +28,6 @@ def choose2(emps):
     else:
         print('Fail to add')
 
-#choose2(emps)
-
 def choose3(a):
     del_num = int(input('Input who you want to delete: '))
     if 0 < del_num <= len(a):
@@ -48,8 +44,6 @@ def choose3(a):
             print('Cancel')
         print('_' * 78)
 
-#choose3(emps)
-
 def start():
     print('_' * 78)
     print('Choose what you want to do： ')
@@ -60,8 +54,6 @@ def start():
     user_choose = input('Please select [1-4]: ')
     print('_' * 78)
     return user_choose
-
-#start()
 
 while True:
     user_choose = start()
