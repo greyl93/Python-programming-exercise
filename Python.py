@@ -76,8 +76,8 @@ while True:
         choose3(emps)
 
     elif user_choose == '4':
-        input('欢迎使用！再见！点击回车退出！')
+        input('Welcome Back at any Time!')
         break
     else:
-        print('输入错误，请重新开始！')
+        print('Error, Restart Please!')
 print('_'*78)
